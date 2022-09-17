@@ -7,6 +7,8 @@ import (
 
 func handlerFunc(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "<h1>Welcome to my awesome site!  THIS WAS DONE FROM THE GITHUB SITE</h1>")
+	fmt.Fprint(w, "<h1>Welcome to my awesome site!  THIS WAS DONE FROM THE GITHUB SITE</h1>")
+
 }
 
 // Added some comments
