@@ -11,6 +11,8 @@ func handlerFunc(w http.ResponseWriter, r *http.Request) {
 
 // Added some comments
 
+// Added some more comments
+
 func main() {
 	http.HandleFunc("/", handlerFunc)
 	fmt.Println("Starting the server on :3000...")
