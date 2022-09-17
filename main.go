@@ -15,6 +15,8 @@ func handlerFunc(w http.ResponseWriter, r *http.Request) {
 
 // Added yet more comments to check for syncing
 
+// Comments added on the macbook pro 13
+
 func main() {
 	http.HandleFunc("/", handlerFunc)
 	fmt.Println("Starting the server on :3000...")
