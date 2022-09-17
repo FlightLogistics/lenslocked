@@ -13,6 +13,8 @@ func handlerFunc(w http.ResponseWriter, r *http.Request) {
 
 // Added some more comments
 
+// Added yet more comments to check for syncing
+
 func main() {
 	http.HandleFunc("/", handlerFunc)
 	fmt.Println("Starting the server on :3000...")
